@@ -1,0 +1,30 @@
+<html>
+	<head>
+		<script src='gamepad-events.js'></script>
+	</head>
+	<body>
+		<script>
+			
+			document.addEventListener("gamepadconnected", function(e) {
+				console.log(e);
+			});
+
+			document.addEventListener("gamepaddisconnected", function(e) {
+				console.log(e);
+			});
+
+            document.addEventListener("gamepadpressdown", function(e){
+                console.log(e);
+            });
+
+            document.addEventListener("gamepadpressup", function(e){
+                console.log(e);
+            });
+
+            document.addEventListener("gamepadaxismove", function(e){
+                console.log(e);
+            });
+
+		</script>
+	</body>
+</html>
