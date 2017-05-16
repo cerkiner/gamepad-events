@@ -1,10 +1,10 @@
 # gamepad-events
 
-Provides easy to use events for gamepads
+Provides easy to use javascript events for gamepads. Gamepad events can be handled by vanilla javascript or jQuery.
 
 ## Getting Started
 
-Browsers' gamepad support is limited at the moment.
+Browsers' gamepad support is limited at the moment; [HTML5 Gamepad API Support](http://caniuse.com/#feat=gamepad)
 
 
 ### Installing
@@ -19,4 +19,4 @@ Include the file in your project. Include after jQuery if you intend to use it w
 
 ## License
 
-This project is licensed under the MIT License
+This project is licensed under the MIT License.
